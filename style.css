@@ -1,0 +1,40 @@
+.nav-right {
+
+}
+
+.main {
+	
+}
+
+.search-box {
+	
+
+}
+
+#buttons {
+	
+}
+
+.languages {
+
+
+}
+
+li {
+	display: inline-flex;
+}
+
+footer {
+	position: fixed;
+	bottom: 50px;
+}
+
+#footer-left{
+	position: fixed;
+	left: 30px;
+}
+
+.footer-right {
+	position: fixed;
+	right: 30px;
+}
