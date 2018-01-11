@@ -5,57 +5,41 @@
 	<title>Google</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" href="favicon.ico">
-	<nav>
-		<ul>
-	<li><a href="#">About</a></li>
-	<li><a href="#">Store</a></li>
-	<span class="nav-right">
-	<li><a href="#">Gmail</a></li>
-	<li><a href="#">Images</a></li>
-	<li><button class=><a href="#">Sign in</a></button></li>
-	</span>
-		</ul>
-	</nav>
 </head>
 <body>
-<div class="main">
+<!-- Top nav bar -->
+		<ul class="navleft">
+			<li><a href="#">About</a></li>
+			<li><a href="#">Store</a></li>
+		</ul>
+			<ul class="navright">
+				<li><a href="#">Gmail</a></li>
+				<li><a href="#">Images</a></li>
+				<li><button id="signin"><a href="#">Sign in</a></button></li>
+			</ul>
+<!-- Top nav bar end -->
 <center>
-<img src="google.png" />
-<form action="#" method="get">
-	<input type="text" name="search-box" class="search-box">
-	<div class="button">
-	<button>Google Search</button>
-	<button>I'm Feeling Lucky</button>
+	<img src="google.png" id="logo">
+<div class="main">
+	<br />
+		<input type="text" id="searchbox"></input>
+	<br />
+	<div class="buttons">
+		<button>Google Search</button>
+		<button>I'm Feeling Lucky</button>
 	</div>
-</form>
-<div class="languages">
-	Google offered in: 
-<a href="#">हिन्दी</a>
-<a href="#">বাংলা</a>
-<a href="#">తెలుగు</a>
-<a href="#">मराठी</a>
-<a href="#">தமிழ்</a>
-<a href="#">ગુજરાતી</a>
-<a href="#">ಕನ್ನಡ</a>
-<a href="#">മലയാളം</a>
-<a href="#">ਪੰਜਾਬੀ</a>
-</div>
 </div>
 </center>
-</div>
-</body>
-<footer>
-	<ul>
-	<div id="footer-left">
-		<div id="country"><li>India<li></div>
-		<li><a href="#">Advertising</a></li>
-		<li><a href="#">Business</a></li>
+	<div class="bnav">
+		<ul class="bnavleft">
+			<li><a href="#" style="color: rgba(0,0,0,.54)">Advertising</a></li>
+			<li><a href="#" style="color: rgba(0,0,0,.54)">Business</a></li>
+		</ul>
+		<ul class="bnavright">
+			<li><a href="#" style="color: rgba(0,0,0,.54)">Privacy</a></li>
+			<li><a href="#" style="color: rgba(0,0,0,.54)">Terms</a></li>
+			<li><a href="#" style="color: rgba(0,0,0,.54)">Settings</a></li>
+		</ul>
 	</div>
-	<span class="footer-right">
-		<li><a href="#">Privacy</a></li>
-		<li><a href="#">Terms</a></li>
-		<li><a href="#">Settings</a></li>
-	</span>
-	</ul>
-</footer>
+</body>
 </html>
