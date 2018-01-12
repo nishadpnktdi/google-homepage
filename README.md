@@ -1,1 +1,1 @@
-This is an project for recreating the Google search homepage created by Nishad PN.
+This is an project for recreating the Google search homepage ( Not responsive ), created by Nishad PN.
